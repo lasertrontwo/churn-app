@@ -6,7 +6,7 @@ st.title("Customer Churn Prediction App")
 st.markdown("Enter customer details to predict churn.")
 
 # Load the model
-model = joblib.load('churn_model.pkl')
+model = joblib.load('churn_model.pk1')
 
 # Inputs
 total_charges = st.number_input("Total Charges (₹)", min_value=0.0, value=1000.0)
